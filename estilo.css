@@ -1,0 +1,85 @@
+
+/* Resetando o valor das margens*/
+     *{
+        margin:0;
+        padding:0;
+        list-style: none;
+    }
+/*Alimentando dados do conteudo do header*/
+    header{width: 100%;
+           height: 180px;
+          background-color: cornflowerblue;
+           display: flex;
+
+    }
+
+    #logo{width: 20%;
+          height: 100%;
+    }
+          
+/* estilizando a classe menu: largura, altura cor e fonte*/
+    .menu{
+        width: 80%;
+        height: 100%;
+        background-color: #144D21;
+        font-family: Arial;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+/* Alimentando as propriedades dos itens de menu*/
+    .listanav{width: 100%;
+            height: 100%;
+            background-color: #144D21;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            
+    }
+
+/* estilizando o link de menu, retirando o sublinhado embaixo, tirando cor original azul*/
+    .menu a{
+        width: 80%;
+        height: 100%;
+        padding: 15px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        background-color: #144D21;
+        color:blanchedalmond;
+        float: left;
+                    
+    }
+     
+    .teste3{
+         width: 100%;
+         height: 100vh;
+  
+         background-image: url(imagem/recicla.jpg);
+
+         background-repeat: no-repeat;
+         background-size: cover;
+ 
+    }
+
+    .menu ul{
+  
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .rodape{
+         background-color:#32502E;
+         color:blanchedalmond;
+         width: 100%;
+        height: 45px;
+        margin-top:1px;
+        clear: both;
+        text-align:center;
+        padding: 20px;
+
+    
+    }
+
+
